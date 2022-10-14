@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/static/css/normalize.css">
+    <link rel="stylesheet" href="src/static/css/styles.css">
+    <link rel="stylesheet" href="src/static/css/hover.css">
+    <link rel="stylesheet" href="src/static/css/stars.css">
+    <script src="https://kit.fontawesome.com/0239039983.js" crossorigin="anonymous"></script>
+
+    <!-- Título -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Eduardo Santamaría</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Cursor -->
+        <span class="circulo"></span>
+
+        <!-- Stars -->
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+
+        <!-- Redes -->
+        <div class="lateral-network">
+            <ul>
+                <li class="hvr-float"><a href="https://www.linkedin.com/in/-eduardosantamaria/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li class="hvr-float"><a href="https://twitter.com/EffectGM"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="hvr-float"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Lateral Menu -->
+        <div class="lateral-menu">
+            <a class="hvr-underline-from-center" onclick="closeMenu();" href="#inicio">INICIO</a>
+            <hr>
+            <a class="hvr-underline-from-center" onclick="closeMenu();" href="#about">PERFIL</a>
+            <hr>
+            <a class="hvr-underline-from-center" onclick="closeMenu();" href="#proyectos">PROYECTOS</a>
+            <hr>
+            <a class="hvr-underline-from-center" onclick="closeMenu();" href="#contacto">CONTACTO</a>
+            <hr>
+            <a class="close" onclick="closeMenu();">X</a>
+        </div>
+
+        <div class="section1">
+            <header>
+                <a href="#inicio">Eduardo Santamaria</a>
+                <nav>
+                    <a class="hvr-underline-from-center" href="#inicio">INICIO</a>
+                    <a class="hvr-underline-from-center" href="#about">PERFIL</a>
+                    <a class="hvr-underline-from-center" href="#proyectos">PROYECTOS</a>
+                    <a class="hvr-underline-from-center" href="#contacto">CONTACTO</a>
+                    <a class="menu"><i class="fa-solid fa-bars"></i></a>
+                </nav>
+            </header>
+
+            <div class="resumen" id="inicio">
+                <h1 class="">Eduardo Santamaria</h1>
+                <p class="profesion">Frontend Developer</p>
+                <p class="decoration"></p>
+                <p class="description">¡Hola! Mi nombres es Eduardo, desarrollador y diseñador Frontend con gusto y pasión por el mundo creativo y la mejor experiencia de usuario.</p>
+            </div>
+        </div>
+
+        <section class="about" id="about">
+            <h2>¡Saludos!</h2>
+            <p>
+                ¡Saludos! Mi nombre es Eduardo, nací en Ciudad de México y actualmente me dedico al desarrollo Web Frontend, soy un gran apasionado por brindar la mejor experiencia de usuario sin descuidar el diseño de interfaces brindando diseños elegantes y minimalistas o según se requiera. <br><br>
+                Cuento también con experiencia en el diseño para el sistema <img src="src/static/img/odoo_logo.png" alt="">, he trabajado en sus versiones 13 y 15 para diversos proyectos, algunos de los clientes fueron Rotoplas y Grupo Salinas utilizando las principales tecnologías de JavaScript y Sass. <br><br>
+                Cuento también con conocimientos en el diseño de interfaces y prototipos a través del Software <span>Adobe Xd</span> y <span>Adobe Photoshop.</span>
+            </p>
+        </section>
+
+        <section class="proyectos" id="proyectos">
+            <h2>¡Proyectos!</h2>
+            <hr>
+            <div class="proyectos-info effect">
+                <h3>Clon de Twitter</h3>
+                <a class="hvr-float" href="#">
+                    <img src="src/static/img/twitter.png" alt="">
+                    <span>VISITAR</span>
+                </a>
+                <hr>
+            </div>
+            <div class="proyectos-info effect">
+                <h3>Viajes de Negocios</h3>
+                <a class="hvr-float" href="#">
+                    <img src="src/static/img/travel.png" alt="">
+                    <span>VISITAR</span>
+                </a>
+                <hr>
+            </div>
+            <div class="proyectos-info effect">
+                <h3>Portfolio Web (Concepto)</h3>
+                <a class="hvr-float" href="#">
+                    <img src="src/static/img/portfolio.png" alt="">
+                    <span>VISITAR</span>
+                </a>
+                <hr>
+            </div>
+            <div class="proyectos-info effect">
+                <h3>Clon de Funimation</h3>
+                <a class="hvr-float" href="#">
+                    <img src="src/static/img/anime.png" alt="">
+                    <span>VISITAR</span>
+                </a>
+                <hr>
+            </div>
+        </section>
+
+        <section class="diseno">
+            <h2>Diseño de Prototipos</h2>
+            <hr>
+            <div class="diseno-info">
+                <p>Creación de prototipos e interfaces web, desarrollados con el Software de <span>Adobe Xd</span>.</p>
+                <img src="src/static/img/project1.png" alt="">
+            </div>
+            <div class="diseno-info">
+                <p>Interfaces modernas y organizadas.</p>
+                <img src="src/static/img/project2.png" alt="">
+            </div>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h2>¿Alguna pregunta? ¡Con gusto podemos hablar!</h2>
+            <a class="hvr-float" href="mailto:eddo.santamaria@gmailcom">Saludar</a>
+        </section>
+
+        <footer>
+            <p>Diseñado y Construido por Eduardo <br> 2022.</p>
+        </footer>
+    </div>
+
+    <script src="src/static/js/main.js"></script>
+    <script type="text/javascript" src="src/static/js/vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+        AOS.init();
+        VanillaTilt.init(document.querySelectorAll(".effect"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+</html>

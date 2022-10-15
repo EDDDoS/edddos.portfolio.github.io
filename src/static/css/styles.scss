@@ -331,6 +331,12 @@ footer{
 }
 
 @media (max-width: 760px){
+    script{
+        display: none;
+    }
+    .section1{
+        margin-bottom: 22% !important;
+    }
     header{
         display: flex;
         justify-content: center !important;
@@ -359,6 +365,7 @@ footer{
 
 @media (max-width: 550px){
     .section1{
+        margin-bottom: 22% !important;
         .resumen{
             h1{
                 font-size: 45px !important;
